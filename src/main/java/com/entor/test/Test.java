@@ -16,12 +16,12 @@ public class Test {
 		UserService service = (UserService)context.getBean("userService");
 //		User user = service.queryById(User.class, 16);
 //		System.out.println(user);
-		/*
+		
 		List<User> list = service.queryByPage(User.class, 1, 20);
 		for(User user:list) {
 			System.out.println(user);
 		}
-		*/
+		
 //		int totals = service.getTotals(User.class);
 //		System.out.println(totals);
 //		service.deleteById(User.class, 16);
